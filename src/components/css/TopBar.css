@@ -1,0 +1,17 @@
+.top-bar{
+    float: left;
+    width: 100%;
+}
+.top-bar ul{
+    margin-top: 0;
+    background-color: rgb(74, 156, 250);
+    list-style: none;
+    width: 97.2%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.top-bar li{
+    font-size: 30px;
+    padding: 25px;
+    font-family: 'Bangers', cursive;
+}
