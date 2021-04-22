@@ -1,5 +1,5 @@
 # Notes App
-This web app contains 3 major feature:
+This web app is developed using MERN stack and contains 3 major functionalities:
 
 ## Home
 Elements TBD
