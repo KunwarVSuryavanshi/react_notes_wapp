@@ -1,0 +1,20 @@
+.add-note h1{
+    font-family: RocknRoll One;
+}
+.add-note input{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: RocknRoll One;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.add-note textarea{
+    text-align: center;
+    border-radius: 10px;
+}
+.add-note .submit-bt{
+    height: 40px;
+    width: 150px;
+}
