@@ -1,6 +1,6 @@
 import './App.css';
 import TopBar from './components/js/TopBar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/js/Home';
 import AddNote from './components/js/AddNote';
 import MyNote from './components/js/MyNote';

@@ -23,4 +23,18 @@ app.get('/getNotes',(req,res)=>{
         }
     })
 })
+app.post('/addNotes',(req,res)=>{
+    mongoClient.connect(url,(err,client)=>{
+        if(err) console.log(err);
+        else{
+            const db = client.db(dbName);
+            db.collection('notes').insertOne({
+                title:req.body.title,
+                note:req.body.body
+            })
+            res.send()
+        }
+        client.close();
+    })
+})
 app.listen(3004,()=>console.log("*********SERVER STARTED*********"))
