@@ -32,7 +32,6 @@ app.post('/addNotes',(req,res)=>{
                 title:req.body.title,
                 note:req.body.body
             })
-            res.send()
         }
         client.close();
     })

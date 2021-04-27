@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import '../css/AddNote.css'
 import bgg from '../images/ezgif.mp4'
 import axios from 'axios'
