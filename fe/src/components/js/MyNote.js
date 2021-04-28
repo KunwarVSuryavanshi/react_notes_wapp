@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
+import '../css/MyNote.css'
 
 function MyNote() {
     const [notes,setNotes] = useState([])
@@ -18,14 +19,13 @@ function MyNote() {
         }) 
     },[])  
     return (
-        <div>
-            My notes
+        <div className="mn-container">
             {notes.map((item)=>{
                 return(
-                    <ol key={item.id}>
-                        <li>{item.title}</li>
-                        <li>{item.note}</li>
-                    </ol>
+                    <div className="item1">
+                        <h2>{item.title}</h2>
+                        <textarea readOnly>{item.note}</textarea>
+                    </div>
                 )
             })}
         </div> 

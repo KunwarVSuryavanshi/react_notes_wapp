@@ -1,0 +1,23 @@
+.mn-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    justify-content: space-around;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:2%;
+}
+.item1{
+    border: solid black 2.4px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item1 textarea{
+    text-align: center;
+    height: 150px;
+    width: 520px;
+    border-radius: 8px;
+    border: black solid 1.5px;
+}
