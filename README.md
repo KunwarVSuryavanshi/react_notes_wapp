@@ -8,10 +8,10 @@ Fetching Random facts using API (nc)
 For adding notes
 
 ## My Notes
-Here you can retrieve the notes that you have added after logging to your account.\ \ \ \
+Here you can retrieve the notes that you have added after logging to your account.<br/> <br/> <br/>
 
 
-## Getting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
