@@ -5,15 +5,6 @@ import axios from 'axios'
 
 function AddNote() {
     const [entry, setEntry] = useState({title:'',note:''})
-    // function handleChange(event){
-    //     const {name,value} = event.target;
-    //     setEntry(prev=>{
-    //         return{
-    //             ...prev,
-    //             [name]:value
-    //         }
-    //     })
-    // }
     const handleChangeTitle = (event)=>{
         setEntry((entry ) => ({...entry, title:event.target.value}))
     }

@@ -1,10 +1,11 @@
-import './App.css';
 import TopBar from './components/js/TopBar';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/js/Home';
 import AddNote from './components/js/AddNote';
 import MyNote from './components/js/MyNote';
-
+import './App.css'
+import back from './components/images/deer-anim3.gif'
+// style={{backgroundImage:"url("+back+")", backgroundSize:'contain', height:'100vh',backgroundRepeat:'no-repeat'}}
 function App() {
   return (
     <Router>

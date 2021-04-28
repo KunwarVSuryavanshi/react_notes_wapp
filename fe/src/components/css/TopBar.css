@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(109, 241, 250);
+    background:linear-gradient(rgba(0, 117, 250, 0.8),transparent);
+    background-color:rgb(0, 238, 255)
 }
 .top-bar ul{
     margin-top: 0;
